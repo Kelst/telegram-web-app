@@ -10,7 +10,7 @@ const onClose=()=>{
 }
   return (
     <div className="App">
-      work
+      Hello
     <button onClick={onClose}>Закрити</button>
     </div>
   )
