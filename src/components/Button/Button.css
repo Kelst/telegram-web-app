@@ -1,0 +1,9 @@
+.button{
+    padding: 10px 15px;
+    background:var(--tg-theme-button-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: var(--tg-theme-button-text-color);
+
+}
