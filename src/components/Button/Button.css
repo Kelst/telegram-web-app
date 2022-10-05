@@ -5,5 +5,8 @@
     border: none;
     cursor: pointer;
     color: var(--tg-theme-button-text-color);
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+
 
 }
