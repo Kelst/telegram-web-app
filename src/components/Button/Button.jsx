@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Children } from 'react'
 import "./Button.css"
-function Button({props}) {
+function Button({children,onClick}) {
+  
     return (
-       <button {...props} className={`button `}  />
+       <button onClick={onClick} className="button">{children}</button>
     )
 }
 
