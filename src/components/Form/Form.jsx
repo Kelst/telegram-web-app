@@ -1,5 +1,4 @@
 import React,{useState,useEffect,useCallback} from 'react'
-import { Telegram } from 'telegraf'
 import { useTelegram } from '../../hooks/useTelegram'
 
 import "./Form.css"
